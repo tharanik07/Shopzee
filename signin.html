@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="signin.js" defer></script>
+    <title>signin</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #form h1{
+    font-size: 300%;
+    color: rgb(224, 239, 11);
+    font-family: 'Pacifico',cursive;
+}
+#form h2{
+    font-size: 250%;
+    color: rgb(44, 129, 214);
+    font-family: monospace;
+        }
+        body{
+            background-image: url(shopp.jpg);
+
+        }
+        #form{
+            
+        border: 5px solid;
+        width: 40%;
+        padding:2px 10px;
+        border-radius: 50px;
+        box-shadow: 3px 2px 30px 30px #8f8d8d88;
+        background-color:aliceblue;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 02%;
+        margin-bottom: 0%;
+        text-align: center;
+        justify-content: center;   
+        }
+        label{
+            font-size: 185%;
+            color: rgb(15, 15, 15);
+        }
+        input{
+            padding: 10px 50px;
+            border-radius: 10px;
+            box-shadow: 0px 5px #888888;
+            background-color: rgb(248, 243, 243);
+        }
+        button{
+            padding: 7px 25px;
+            background-color: #f59a24;
+            border-radius: 25px 40px 25px 40px;
+            font-family: 'Indie-Flower',cursive;
+            font-size: 120%;
+        }
+        button:hover{
+            background-color:  #eabd83;
+        }
+        .input-group .error{
+            color:rgb(242, 18, 18);
+            font-size:16px;
+            margin-top: 5px;
+            margin-left: 30px;
+        }
+
+        .input-group.success input{
+            background-color: #6bdcad;
+        }
+
+        .input-group.error input{
+            background-color:rgb(198, 107, 107);
+        }
+        #reset{
+            padding: 2px 8px;
+            border-radius: 10px;
+            background-color:  #f59a24;
+        }
+        #reset:hover{
+            background-color: #f0c791;
+        }
+        #form p{
+            color: azure;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(13, 177, 247);
+            text-decoration: underline;
+            font-size: 120%;
+        }
+        a:hover{
+            color: #0cc477;
+        }
+        input:focus{
+            background-color: azure;
+        }
+        #back{
+            padding: 3px 15px;
+            background-color: rgba(100, 172, 219, 0.678);
+        }
+        #back a{
+            text-decoration: none;
+            font-size: 90%;
+            color: black;
+        }
+        img{
+            width:20%;
+        }
+        @media only screen and (max-width:700px){
+            input{
+                padding: 8px 20px;
+            }
+            label{
+                font-size: 110%;
+            }
+            h1{
+                font-size: 240%;
+            }
+            button{
+                padding: 4px 16px;
+            }
+            #reset{
+                padding: 3px 6px;
+            }
+            #form{
+                width: 90%;
+                margin-top: 80px;
+                margin-left:4% ;
+
+            }
+
+        }
+    </style>
+</head>
+<body><center>
+    <img src=" " alt="">
+    <form id="form"><center>
+        
+        <h1>Log In</h1><br><br><br>
+        <h2>Good To See You Again!</h2><br><br>
+        
+
+        <div class="input-group">
+        <label for="email">E-Mail Id   :</label>
+        <input type="text" id="email" name="email" placeholder="dhoni@gmail.com">
+        <div class="error"></div><br><br>
+        </div>
+
+        <div class="input-group">
+        <label for="pass">Password   :</label>
+        <input type="password" id="password" name="pass" placeholder="eg- dhoni07!">
+        <div class="error"></div><br><br>
+        </div>
+
+        <a href="#"><button type="submit">Log In</button></a><br><br>
+        <button type="reset" id="reset">reset</button><br>
+        <p>----------------------------------------------------------------------------------------</p>
+       <br><br>
+        <p id="switch"><a href="index.html" >Don't have an account?</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br><br>
+        <button id="back"><a href="home.html">HOME</a></button><br><br>
+        </form><br><br>
+    </center></form></center>
+</body>
+</html>

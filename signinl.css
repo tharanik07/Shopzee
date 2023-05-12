@@ -1,0 +1,144 @@
+*{
+    justify-content: center;
+    align-items: center;   
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#form h1{
+font-size: 300%;
+color: rgb(30, 247, 178);
+font-family: 'Pacifico',cursive;
+}
+#form h2{
+font-size: 250%;
+color: rgb(109, 179, 248);
+font-family: monospace;
+}
+body{
+    background-color: rgb(221, 160, 84);
+}
+#form{
+    
+border: 5px solid;
+background-color: rgb(250, 253, 252);
+width: 40%;
+padding:2px 10px;
+border-radius: 50px;
+box-shadow: 3px 2px 30px 30px #8f8d8d88;
+margin-left: 25%;
+margin-right: 25%;
+margin-top: 02%;
+margin-bottom: 0%;
+text-align: center;
+justify-content: center;
+}
+label{
+    font-size: 185%;
+    color: rgb(55, 55, 52);
+}
+input{
+    padding: 10px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 5px #888888;
+    background-color: rgb(255, 249, 249);
+}
+button{
+    padding: 7px 25px;
+    background-color:rgb(221, 160, 84);
+    border-radius: 25px 40px 25px 40px;
+    font-family: 'Indie-Flower',cursive;
+    font-size: 120%;
+}
+button:hover{
+    background-color: rgb(212, 177, 134);
+}
+.input-group .error{
+    color:rgb(237, 107, 107);
+    font-size:16px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.input-group.success input{
+    background-color: #7cdbb3;
+}
+
+.input-group.error input{
+    border-color:rgb(206, 67, 67);
+}
+#reset{
+    padding: 2px 8px;
+    border-radius: 10px;
+    background-color:rgb(221, 160, 84);
+}
+#reset:hover{
+    background-color: rgb(188, 158, 120);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(20, 157, 249);
+    text-decoration: underline;
+    font-size: 120%;
+}
+a:hover{
+    color: #0cc477;
+}
+input:focus{
+    background-color: azure;
+}
+#back{
+    padding: 3px 15px;
+    background-color: aquamarine;
+}
+#back a{
+    text-decoration: none;
+    font-size: 90%;
+    color: black;
+}
+@media only screen and (max-width:700px){
+    input{
+        padding: 8px 20px;
+    }
+    label{
+        font-size: 110%;
+    }
+    h1{
+        font-size: 240%;
+    }
+    button{
+        padding: 4px 16px;
+    }
+    #reset{
+        padding: 3px 6px;
+    }
+    #form{
+        width: 90%;
+        margin-top: 80px;
+        margin-left:4% ;
+
+    }
+
+}
+.slogo{
+    width: 15%;
+    height: 10%;
+    padding-left: 0px;
+}
+
+.back{
+    padding: 10px 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px #888888;
+    background-image: -webkit-linear-gradient(left,rgb(29, 236, 243),rgb(231, 207, 238));
+    color: rgb(1, 7, 12);
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 475px;
+}
+.back:hover{
+    background-image: -webkit-linear-gradient(left,rgb(231, 207, 238),rgb(29, 236, 243)); ;
+}
